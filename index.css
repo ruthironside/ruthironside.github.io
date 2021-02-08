@@ -10,6 +10,7 @@
     padding: 20px;
     font-family: Helvetica;
     margin: 40px;
+    color: rgb(58, 131, 85);
   }
   
   /* Center website */
@@ -50,6 +51,7 @@
   .content {
     background-color: white;
     padding: 10px;
+    color:  #99ffe7;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
