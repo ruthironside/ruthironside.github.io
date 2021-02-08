@@ -36,8 +36,8 @@
   
   /* Create four equal columns that floats next to each other */
   .column {
-    float: left;
-    width: 25%;
+    float: center;
+    width: 80%;
   }
   
   /* Clear floats after rows */
@@ -49,9 +49,11 @@
   
   /* Content */
   .content {
-    background-color: rgb(255, 255, 255);
+    background-color:  #8fcbbd;
     padding: 10px;
-    color:  #464646;
+    color:  #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -66,4 +68,9 @@
     .column {
       width: 100%;
     }
+  }
+
+  .footer {
+      flex: auto;
+      flex-wrap: wrap;
   }
