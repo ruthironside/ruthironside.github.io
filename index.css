@@ -8,9 +8,9 @@
     
     background-color: #99ffe7;
     padding: 20px;
-    font-family: Helvetica;
+    font-family: 'Nanum Gothic', sans-serif;
     margin: 40px;
-    color: rgb(58, 131, 85);
+    color: rgb(255, 255, 255);
   }
   
   /* Center website */
@@ -49,9 +49,9 @@
   
   /* Content */
   .content {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
-    color:  #99ffe7;
+    color:  #464646;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
