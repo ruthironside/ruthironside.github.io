@@ -9,14 +9,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #5ac9af;
+    background-color: #eafffc;
     padding: 20px;
     font-family: 'Nanum Gothic', sans-serif;
     margin: 40px;
-    color: rgb(255, 255, 255);
+    color: #f88379;
     /* text-align: center; */
 
+
+
   }
+
   
   /* Center website */
   .main {
@@ -57,9 +60,9 @@
   
   /* Content */
   .content {
-    background-color:  #8fcbbd;
-    padding: 10px;
-    color:  #ffffff;
+    background-color: #ffffff;
+    padding: 20px;
+    color:  lightslategray;
     text-align: center;
     margin-bottom: 20px;
     align-content: center;
@@ -83,6 +86,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding 10px;
+    background-color:  #83cbbf;
+    margin: 0;
   }
 
   .github {
@@ -94,8 +100,25 @@
     padding-left: 50px;
   }
 
+  .linkedin {
+    padding-left: 50px;
+  }
+
   /* .portfolio {
     display: flex;
     align-items: center;
     justify-content: center;
   } */
+
+  .line {
+    border-bottom: 2px dotted  #83cbbf;
+  }
+
+  #about {
+    color: lightslategray;
+  }
+
+.header {
+    color: #83cbbf;
+}
+
